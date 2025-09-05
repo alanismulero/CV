@@ -1,11 +1,22 @@
 ---
 title: "CV"
-author: "Alanis S. Mulero Burgos"
-date: "2025-09-05"
+position: "Alanis S. Mulero Burgos"
+address:
+date: "`r format(Sys.time(), '%Y-%b-%d, %I:%M %p')`" 
+profilepic:
+email: "alanis.mulero@upr.edu"
+github:
+linkedin:
+aboutme:
+headcoolor:
 output: html_document
 ---
 
-```{r}
+```{r, echo=F, message=F}
 library(vitae)
+```
+
+```{r, echo=F}
+??vitae
 ```
 
